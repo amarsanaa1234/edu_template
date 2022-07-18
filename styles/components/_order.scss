@@ -1,0 +1,41 @@
+.order{
+    width: 1160px;
+    height: 482px;
+    display: flex;
+    background-color: rgb(255, 240, 241);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    &_image{
+        width: 65%;
+        height: 100%;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+        background-image: url("https://img1.wsimg.com/isteam/stock/15622/:/rs=w:1500,h:1000,cg:true,m/cr=w:1500,h:1000");
+    }
+    &_frame{
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.5;
+        &_title{
+            width: 100%;
+            font-size: 47px;
+            font-family: 'Great Vibes', Georgia, serif, system-ui;
+            letter-spacing: 0.023em;
+            font-weight: 400;
+        }
+        &_sec{
+            color: rgb(87, 87, 87);
+            font-size: 14px;
+            font-family: Quicksand, sans-serif;
+
+        }
+    }
+}
+.side_frame{
+    width: 308px;
+    height: 402px;
+}

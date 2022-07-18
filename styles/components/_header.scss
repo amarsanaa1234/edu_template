@@ -1,0 +1,39 @@
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.header_logo{
+    width: 300px;
+    height: 100px;
+    margin-top: 60px;
+    background-image: url("https://img1.wsimg.com/isteam/ip/a1b62783-78f8-4a6e-9d2d-8fd9c6acaa9b/logo/fb72ffeb-c89b-4ee1-8d48-60e3a41fcde5.png/:/rs=h:108,cg:true,m/qt=q:100/ll");
+  }
+.header_menu{
+    display: flex;
+    margin-top: 25px;
+    &_name{
+        margin: 20px;
+    
+        &_list{
+            text-decoration: none;
+            color: rgb(21, 21, 21);
+            font-size: 14px;
+            
+            text-transform: uppercase;
+            display: block;
+            letter-spacing: 0.214em;
+            font-family: Quicksand, sans-serif;
+        }
+    }
+}
+.header_menu_name_list:hover{
+    padding-bottom: 4px;
+    border-bottom: 1px solid;
+    border-color: red;
+    
+    
+}
+  
